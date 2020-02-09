@@ -26,7 +26,7 @@ public class VerifyCreateAcount {
 		CreateAccount create=new CreateAccount(dr);
 		create.clickonSignIn();
 		dr.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-		create.typeEmailId("secretangel540@gmail.com");
+		create.typeEmailId("secretangel543@gmail.com");
 		dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		create.clickonSubmitButton();
 		create.clickontitlebutton();
